@@ -1,6 +1,0 @@
-<section class="home-page" *ngIf="currUser">
-    <h2>Hello {{currUser.name}} </h2>
-    <h3>Coins: {{currUser.coins}}</h3>
-    <h3>BTC: {{btcRate}}</h3>
-    <move-list [moves]="last3Moves" [isFullList]="true"></move-list>
-</section>

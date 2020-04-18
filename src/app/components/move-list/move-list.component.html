@@ -1,9 +1,0 @@
-<section class="move-list">
-    <div class="move-card" *ngFor="let move of moves">
-        <ul>
-            <li *ngIf="isFullList">To: {{move.to}}</li>
-            <li>At: {{move.at | date}}</li>
-            <li>Amount: {{move.amount}}</li>
-        </ul>
-    </div>
-</section>
